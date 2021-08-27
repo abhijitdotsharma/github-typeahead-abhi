@@ -1,0 +1,56 @@
+.Main{
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 50px;  
+}
+
+.Main h1{
+    width: 80%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 700;
+    margin-bottom: 20px;
+}
+
+.suggestions-container{
+    width: 80%;
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.959);
+}
+
+.input{
+    width: 80%;
+    padding: 3px 5px;
+    font-family: 'Montserrat';
+    font-size: 500;
+    border: 2px solid #cab7ec;
+    border-radius: 4px;
+    margin-bottom: 7px;
+}
+
+.input:focus { 
+    outline: none;
+    border-color: #774acb;
+    box-shadow: 0 0 8px #774acb;
+}
+
+.single-country{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-family: 'Montserrat';
+    padding: 2px 5px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    margin: 5px 0;
+    color: black;
+    transition: background-color .4s, border .2s;
+}
+
+.single-country:hover{
+    border-left: 2.5px solid #774acb;
+    background-color: #e6d8fc;
+    cursor: pointer;
+}
